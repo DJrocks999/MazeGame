@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Stage 1"
-        android:id="@+id/textView2"
+        android:id="@+id/stage1"
         android:layout_alignParentTop="true"
         android:layout_marginTop="65dp"
         android:layout_alignParentLeft="true"
@@ -32,9 +32,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Stage 2"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/textView2"
+        android:text="Stage2"
+        android:id="@+id/stage2"
+        android:layout_below="@+id/stage1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -43,8 +43,8 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Stage 3"
-        android:id="@+id/textView4"
-        android:layout_below="@+id/textView3"
+        android:id="@+id/stage3"
+        android:layout_below="@+id/stage2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
