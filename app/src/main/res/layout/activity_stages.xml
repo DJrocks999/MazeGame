@@ -17,34 +17,35 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Stage 1"
         android:id="@+id/stage1"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="65dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="198dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginTop="93dp" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Stage2"
+        android:text="Stage 2"
         android:id="@+id/stage2"
-        android:layout_below="@+id/stage1"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Stage 3"
         android:id="@+id/stage3"
+        android:layout_marginTop="61dp"
         android:layout_below="@+id/stage2"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
 </RelativeLayout>
