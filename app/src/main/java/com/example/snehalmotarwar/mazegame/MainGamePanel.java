@@ -2,6 +2,7 @@ package com.example.snehalmotarwar.mazegame;
 
 import android.app.Activity;
 import android.content.Context;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -61,7 +62,9 @@ public void surfaceDestroyed(SurfaceHolder holder) {
 
 
 
+
 @Override
-protected void onDraw(Canvas canvas) {
-        }
+public void onDraw(Canvas canvas) {
+    canvas.drawBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.droid_1), 10, 10, null);
+}
         }
